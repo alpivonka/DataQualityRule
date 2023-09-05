@@ -5,7 +5,7 @@ Resource: DataQualityRuleDefinition
 Parent: DomainResource
 //Logical: DataQualityRule
 Id: DataQualityRuleDefinition
-Title: "Data Quality Rule Definition"
+Title: "Resource: Data Quality Rule Definition"
 Description: "A rule ensuring data adherence to expected norms and standards."
 * identifier 0..* Identifier ""
 * description 1..1 string  "Description of Rule" "Logical description of Rule"

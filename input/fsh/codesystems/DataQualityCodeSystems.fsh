@@ -42,6 +42,7 @@ Title: "CodeSystem: Error Type"
 
 CodeSystem: SeverityLevelSystem
 Id: severity-level-system
+Title: "CodeSystem: Severity Level"
 * #1 "1 - Low"
 * #2 "2"
 * #3 "3"
