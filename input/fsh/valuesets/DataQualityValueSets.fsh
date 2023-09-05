@@ -1,6 +1,6 @@
 ValueSet: RuleLevel
 Id: ruleLevel
-Title: " the Rules levels"
+Title: " ValueSet: Rule level"
 * ^status = #draft
 * ^experimental = false
 * LevelSystem#concept
@@ -9,7 +9,7 @@ Title: " the Rules levels"
 
 ValueSet: RuleContext
 Id: ruleContext
-Title: " the Rules context"
+Title: " ValueSet: Rule context"
 * ^status = #draft
 * ^experimental = false
 * ContextSystem#verification
@@ -17,7 +17,7 @@ Title: " the Rules context"
 
 ValueSet: RuleCategory
 Id: ruleCategory
-Title: " the Rules category"
+Title: " ValueSet: Rule Category"
 * ^status = #draft
 * ^experimental = false
 * CategorySystem#conformance
@@ -27,7 +27,7 @@ Title: " the Rules category"
 
 ValueSet: RuleSubcategory
 Id: ruleSubcategory
-Title: " the Rules subcategory"
+Title: " ValueSet: Rule Subcategory"
 * ^status = #draft
 * ^experimental = false
 * SubcategorySystem#value-conformance
@@ -40,7 +40,7 @@ Title: " the Rules subcategory"
 
 ValueSet: RuleErrorType
 Id: ruleErrorType
-Title: " the Rules error type"
+Title: " ValueSet: Rule Error Type"
 * ^status = #draft
 * ^experimental = false
 * ErrorTypeSystem#failed
@@ -50,7 +50,7 @@ Title: " the Rules error type"
 
 ValueSet: RuleActionRelationship
 Id: ruleActionRelationship
-Title: " the Rules action relationship"
+Title: " ValueSet: Rule Action Relationship"
 * ^status = #draft
 * ^experimental = false
 * RelationshipSystem#before
@@ -67,7 +67,7 @@ Title: " the Rules action relationship"
 
 ValueSet: RuleSeverity
 Id: ruleSeverity
-Title: " the Rules Rule Severity"
+Title: " ValueSet: Rule Severity"
 * ^status = #draft
 * ^experimental = false
 * SeverityLevelSystem#1 
@@ -80,7 +80,7 @@ Title: " the Rules Rule Severity"
 
 ValueSet: ActionType
 Id: actionType
-Title: " the Rules action type"
+Title: " ValueSet: Rules Action Type"
 * ^status = #draft
 * ^experimental = false
 * ActionTypeSystem#create

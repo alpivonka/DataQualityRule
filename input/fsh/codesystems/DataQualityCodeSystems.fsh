@@ -3,17 +3,21 @@
 // CodeSystem definitions
 CodeSystem: LevelSystem
 Id: level-system
+Title: "CodeSystem: Level"
 * #concept "Concept"
 * #resource "Resource"
 * #field "Field"
 
 CodeSystem: ContextSystem
 Id: context-system
+Title: "CodeSystem: Context"
 * #verification "Verification"
 * #validation "Validation"
 
+
 CodeSystem: CategorySystem
 Id: category-system
+Title: "CodeSystem: Category"
 * #conformance "Conformance"
 * #completeness "Completeness"
 * #plausibility "Plausibility"
@@ -21,6 +25,7 @@ Id: category-system
 
 CodeSystem: SubcategorySystem
 Id: subcategory-system
+Title: "CodeSystem: Subcategory "
 * #value-conformance "Value Conformance"
 * #relational-conformance "Relational Conformance"
 * #computational-conformance "Computational Conformance"
@@ -30,6 +35,7 @@ Id: subcategory-system
 
 CodeSystem: ErrorTypeSystem
 Id: error-type-system
+Title: "CodeSystem: Error Type"
 * #failed "Failed"
 * #nullvalue "Null Value"
 * #outOfRange "Out of Range"
@@ -44,6 +50,7 @@ Id: severity-level-system
 
 CodeSystem: RelationshipSystem
 Id: relationship-system
+Title: "CodeSystem: Relationship"
 * #before "Before"
 * #before-start "Before Start"
 * #before-end "Before End"
@@ -56,6 +63,7 @@ Id: relationship-system
 
 CodeSystem: ActionTypeSystem
 Id: action-type-system
+Title: "CodeSystem: ActionType"
 * #create "Create"
 * #update "Update"
 * #remove "Remove"
