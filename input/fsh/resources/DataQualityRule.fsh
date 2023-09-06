@@ -1,9 +1,9 @@
 
 
 //Definition of DQR
-Resource: DataQualityRuleDefinition
-Parent: DomainResource
-//Logical: DataQualityRule
+//Resource: DataQualityRuleDefinition
+//Parent: DomainResource
+Logical: DataQualityRule
 Id: DataQualityRuleDefinition
 Title: "Resource: Data Quality Rule Definition"
 Description: "A rule ensuring data adherence to expected norms and standards."
