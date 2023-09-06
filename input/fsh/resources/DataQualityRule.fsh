@@ -25,7 +25,7 @@ Description: "A rule ensuring data adherence to expected norms and standards."
   * category from RuleCategory (example)
   * subcategory 1..1 code " the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)"
   * subcategory  from RuleSubcategory (example)
-* subject 1..1 BackboneElement "Subject of the rule"
+* subject 1..1 BackboneElement "Subject (Resource/FHIRPath of attribute) of the rule"
   * resourceStructureDefinitionURL 0..1 url  "Referable resources this rule applies to."
   * resourceStructureDefinitionVersion 0..1 string "Version of resource"
   * fieldScope 0..1 Reference(Expression) "FhirPath to Resource field."
