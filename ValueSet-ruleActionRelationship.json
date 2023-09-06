@@ -1,0 +1,77 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ruleActionRelationship",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship",
+  "version" : "1.0.0",
+  "name" : "RuleActionRelationship",
+  "title" : " ValueSet: Rule Action Relationship",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-09-06T13:30:20+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://NCQA.org/fhir/example/CodeSystem/relationship-system",
+      "concept" : [{
+        "code" : "before"
+      },
+      {
+        "code" : "before-start",
+        "display" : "Before Start"
+      },
+      {
+        "code" : "before-end",
+        "display" : "Before End"
+      },
+      {
+        "code" : "concurrent",
+        "display" : "Concurrent"
+      },
+      {
+        "code" : "concurrent-with-start"
+      },
+      {
+        "code" : "concurrent-with-end"
+      },
+      {
+        "code" : "after"
+      },
+      {
+        "code" : "after-start"
+      },
+      {
+        "code" : "after-end"
+      }]
+    }]
+  }
+}

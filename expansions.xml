@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="e25906f7-168e-4be9-b0ef-b257c02c4228"/>
+  <meta>
+    <lastUpdated value="2023-09-06T13:30:20.998+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleContext"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-context-system.html">codesystem CodeSystem: Context v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-context-system-verification"> </a>  
+                  <a href="CodeSystem-context-system.html#context-system-verification">verification</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/context-system</td>
+                <td>Verification</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-context-system-validation"> </a>  
+                  <a href="CodeSystem-context-system.html#context-system-validation">validation</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/context-system</td>
+                <td>Validation</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleContext"/>
+        <version value="1.0.0"/>
+        <name value="RuleContext"/>
+        <title value=" ValueSet: Rule context"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:2210400c-e81d-4ca7-b0c3-00f7f1db2add"/>
+          <timestamp value="2023-09-06T13:30:44+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/context-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/context-system"/>
+            <code value="verification"/>
+            <display value="Verification"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/context-system"/>
+            <code value="validation"/>
+            <display value="Validation"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleSubcategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-subcategory-system.html">codesystem CodeSystem: Subcategory  v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-value-conformance"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-value-conformance">value-conformance</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Value Conformance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-relational-conformance"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-relational-conformance">relational-conformance</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Relational Conformance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-computational-conformance"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-computational-conformance">computational-conformance</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Computational Conformance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-uniqueness-plausibility"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-uniqueness-plausibility">uniqueness-plausibility</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Uniqueness Plausibility</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-atemporal-plausibility"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-atemporal-plausibility">atemporal-plausibility</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Atemporal Plausibility</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-subcategory-system-temporal-plausibility"> </a>  
+                  <a href="CodeSystem-subcategory-system.html#subcategory-system-temporal-plausibility">temporal-plausibility</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/subcategory-system</td>
+                <td>Temporal Plausibility</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleSubcategory"/>
+        <version value="1.0.0"/>
+        <name value="RuleSubcategory"/>
+        <title value=" ValueSet: Rule Subcategory"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:cc8a4b2b-dbce-4694-b938-e75b6a5a0d74"/>
+          <timestamp value="2023-09-06T13:30:44+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="value-conformance"/>
+            <display value="Value Conformance"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="relational-conformance"/>
+            <display value="Relational Conformance"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="computational-conformance"/>
+            <display value="Computational Conformance"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="uniqueness-plausibility"/>
+            <display value="Uniqueness Plausibility"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="atemporal-plausibility"/>
+            <display value="Atemporal Plausibility"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+            <code value="temporal-plausibility"/>
+            <display value="Temporal Plausibility"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-severity-level-system.html">codesystem CodeSystem: Severity Level v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-severity-level-system-1"> </a>  
+                  <a href="CodeSystem-severity-level-system.html#severity-level-system-1">1</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/severity-level-system</td>
+                <td>1 - Low</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-severity-level-system-2"> </a>  
+                  <a href="CodeSystem-severity-level-system.html#severity-level-system-2">2</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/severity-level-system</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-severity-level-system-3"> </a>  
+                  <a href="CodeSystem-severity-level-system.html#severity-level-system-3">3</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/severity-level-system</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-severity-level-system-4"> </a>  
+                  <a href="CodeSystem-severity-level-system.html#severity-level-system-4">4</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/severity-level-system</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-severity-level-system-5"> </a>  
+                  <a href="CodeSystem-severity-level-system.html#severity-level-system-5">5</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/severity-level-system</td>
+                <td>5 - High</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+        <version value="1.0.0"/>
+        <name value="RuleSeverity"/>
+        <title value=" ValueSet: Rule Severity"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ea97589e-e5ef-466e-8ad0-f4d2a63f3b5b"/>
+          <timestamp value="2023-09-06T13:30:44+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system"/>
+            <code value="1"/>
+            <display value="1 - Low"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system"/>
+            <code value="2"/>
+            <display value="2"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system"/>
+            <code value="3"/>
+            <display value="3"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system"/>
+            <code value="4"/>
+            <display value="4"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/severity-level-system"/>
+            <code value="5"/>
+            <display value="5 - High"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleLevel"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-level-system.html">codesystem CodeSystem: Level v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-level-system-concept"> </a>  
+                  <a href="CodeSystem-level-system.html#level-system-concept">concept</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/level-system</td>
+                <td>Concept</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-level-system-resource"> </a>  
+                  <a href="CodeSystem-level-system.html#level-system-resource">resource</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/level-system</td>
+                <td>Resource</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-level-system-field"> </a>  
+                  <a href="CodeSystem-level-system.html#level-system-field">field</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/level-system</td>
+                <td>Field</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleLevel"/>
+        <version value="1.0.0"/>
+        <name value="RuleLevel"/>
+        <title value=" ValueSet: Rule level"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:2829a946-d780-4a89-889a-4905d1a12755"/>
+          <timestamp value="2023-09-06T13:30:47+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/level-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/level-system"/>
+            <code value="concept"/>
+            <display value="Concept"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/level-system"/>
+            <code value="resource"/>
+            <display value="Resource"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/level-system"/>
+            <code value="field"/>
+            <display value="Field"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleCategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-category-system.html">codesystem CodeSystem: Category v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-category-system-conformance"> </a>  
+                  <a href="CodeSystem-category-system.html#category-system-conformance">conformance</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/category-system</td>
+                <td>Conformance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-category-system-completeness"> </a>  
+                  <a href="CodeSystem-category-system.html#category-system-completeness">completeness</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/category-system</td>
+                <td>Completeness</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-category-system-plausibility"> </a>  
+                  <a href="CodeSystem-category-system.html#category-system-plausibility">plausibility</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/category-system</td>
+                <td>Plausibility</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleCategory"/>
+        <version value="1.0.0"/>
+        <name value="RuleCategory"/>
+        <title value=" ValueSet: Rule Category"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:422c124f-f1a9-46ef-aa74-a6a6b0216717"/>
+          <timestamp value="2023-09-06T13:30:47+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/category-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/category-system"/>
+            <code value="conformance"/>
+            <display value="Conformance"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/category-system"/>
+            <code value="completeness"/>
+            <display value="Completeness"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/category-system"/>
+            <code value="plausibility"/>
+            <display value="Plausibility"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/actionType"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-action-type-system.html">codesystem CodeSystem: ActionType v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-action-type-system-create"> </a>  
+                  <a href="CodeSystem-action-type-system.html#action-type-system-create">create</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/action-type-system</td>
+                <td>Create</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-action-type-system-update"> </a>  
+                  <a href="CodeSystem-action-type-system.html#action-type-system-update">update</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/action-type-system</td>
+                <td>Update</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-action-type-system-remove"> </a>  
+                  <a href="CodeSystem-action-type-system.html#action-type-system-remove">remove</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/action-type-system</td>
+                <td>Remove</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-action-type-system-fire-event"> </a>  
+                  <a href="CodeSystem-action-type-system.html#action-type-system-fire-event">fire-event</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/action-type-system</td>
+                <td>Fire Event</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/actionType"/>
+        <version value="1.0.0"/>
+        <name value="ActionType"/>
+        <title value=" ValueSet: Rules Action Type"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5bd9fc61-6cce-451c-8aa8-bf566d416d49"/>
+          <timestamp value="2023-09-06T13:30:47+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/action-type-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/action-type-system"/>
+            <code value="create"/>
+            <display value="Create"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/action-type-system"/>
+            <code value="update"/>
+            <display value="Update"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/action-type-system"/>
+            <code value="remove"/>
+            <display value="Remove"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/action-type-system"/>
+            <code value="fire-event"/>
+            <display value="Fire Event"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-relationship-system.html">codesystem CodeSystem: Relationship v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-before"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-before">before</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Before</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-before-start"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-before-start">before-start</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Before Start</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-before-end"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-before-end">before-end</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Before End</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-concurrent"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-concurrent">concurrent</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Concurrent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-concurrent-with-start"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-concurrent-with-start">concurrent-with-start</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Concurrent With Start</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-concurrent-with-end"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-concurrent-with-end">concurrent-with-end</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>Concurrent With End</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-after"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-after">after</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>After</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-after-start"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-after-start">after-start</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>After Start</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-relationship-system-after-end"> </a>  
+                  <a href="CodeSystem-relationship-system.html#relationship-system-after-end">after-end</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/relationship-system</td>
+                <td>After End</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship"/>
+        <version value="1.0.0"/>
+        <name value="RuleActionRelationship"/>
+        <title value=" ValueSet: Rule Action Relationship"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:6c87a868-609f-4089-8295-09bcd227be2f"/>
+          <timestamp value="2023-09-06T13:30:47+00:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/relationship-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="before"/>
+            <display value="Before"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="before-start"/>
+            <display value="Before Start"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="before-end"/>
+            <display value="Before End"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="concurrent"/>
+            <display value="Concurrent"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="concurrent-with-start"/>
+            <display value="Concurrent With Start"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="concurrent-with-end"/>
+            <display value="Concurrent With End"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="after"/>
+            <display value="After"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="after-start"/>
+            <display value="After Start"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/relationship-system"/>
+            <code value="after-end"/>
+            <display value="After End"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-error-type-system.html">codesystem CodeSystem: Error Type v1.0.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-error-type-system-failed"> </a>  
+                  <a href="CodeSystem-error-type-system.html#error-type-system-failed">failed</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/error-type-system</td>
+                <td>Failed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-error-type-system-nullvalue"> </a>  
+                  <a href="CodeSystem-error-type-system.html#error-type-system-nullvalue">nullvalue</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/error-type-system</td>
+                <td>Null Value</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---NCQA.org-fhir-example-CodeSystem-error-type-system-outOfRange"> </a>  
+                  <a href="CodeSystem-error-type-system.html#error-type-system-outOfRange">outOfRange</a>
+                </td>
+                <td>http://NCQA.org/fhir/example/CodeSystem/error-type-system</td>
+                <td>Out of Range</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+        <version value="1.0.0"/>
+        <name value="RuleErrorType"/>
+        <title value=" ValueSet: Rule Error Type"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-09-06T13:30:20+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:63bbc4e6-36bd-4e1c-a599-11f90976b16a"/>
+          <timestamp value="2023-09-06T13:30:48+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://NCQA.org/fhir/example/CodeSystem/error-type-system|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/error-type-system"/>
+            <code value="failed"/>
+            <display value="Failed"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/error-type-system"/>
+            <code value="nullvalue"/>
+            <display value="Null Value"/>
+          </contains>
+          <contains>
+            <system value="http://NCQA.org/fhir/example/CodeSystem/error-type-system"/>
+            <code value="outOfRange"/>
+            <display value="Out of Range"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

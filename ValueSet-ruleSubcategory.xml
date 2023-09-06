@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ruleSubcategory"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://NCQA.org/fhir/example/ValueSet/ruleSubcategory"/>
+  <version value="1.0.0"/>
+  <name value="RuleSubcategory"/>
+  <title value=" ValueSet: Rule Subcategory"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-09-06T13:30:20+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://NCQA.org/fhir/example/CodeSystem/subcategory-system"/>
+      <concept>
+        <code value="value-conformance"/>
+      </concept>
+      <concept>
+        <code value="relational-conformance"/>
+      </concept>
+      <concept>
+        <code value="computational-conformance"/>
+      </concept>
+      <concept>
+        <code value="uniqueness-plausibility"/>
+      </concept>
+      <concept>
+        <code value="atemporal-plausibility"/>
+      </concept>
+      <concept>
+        <code value="temporal-plausibility"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,128 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://NCQA.org/fhir/example",
+    "version" : "1.0.0",
+    "name" : "DQR"
+  },
+  {
+    "id" : "action-type-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/action-type-system",
+    "version" : "1.0.0",
+    "name" : "ActionTypeSystem"
+  },
+  {
+    "id" : "category-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/category-system",
+    "version" : "1.0.0",
+    "name" : "CategorySystem"
+  },
+  {
+    "id" : "context-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/context-system",
+    "version" : "1.0.0",
+    "name" : "ContextSystem"
+  },
+  {
+    "id" : "error-type-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/error-type-system",
+    "version" : "1.0.0",
+    "name" : "ErrorTypeSystem"
+  },
+  {
+    "id" : "level-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/level-system",
+    "version" : "1.0.0",
+    "name" : "LevelSystem"
+  },
+  {
+    "id" : "relationship-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/relationship-system",
+    "version" : "1.0.0",
+    "name" : "RelationshipSystem"
+  },
+  {
+    "id" : "severity-level-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/severity-level-system",
+    "version" : "1.0.0",
+    "name" : "SeverityLevelSystem"
+  },
+  {
+    "id" : "subcategory-system",
+    "type" : "CodeSystem",
+    "url" : "http://NCQA.org/fhir/example/CodeSystem/subcategory-system",
+    "version" : "1.0.0",
+    "name" : "SubcategorySystem"
+  },
+  {
+    "id" : "DataQualityRuleDefinition",
+    "type" : "StructureDefinition",
+    "url" : "http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition",
+    "version" : "1.0.0",
+    "name" : "DataQualityRule"
+  },
+  {
+    "id" : "actionType",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/actionType",
+    "version" : "1.0.0",
+    "name" : "ActionType"
+  },
+  {
+    "id" : "ruleActionRelationship",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship",
+    "version" : "1.0.0",
+    "name" : "RuleActionRelationship"
+  },
+  {
+    "id" : "ruleCategory",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleCategory",
+    "version" : "1.0.0",
+    "name" : "RuleCategory"
+  },
+  {
+    "id" : "ruleContext",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleContext",
+    "version" : "1.0.0",
+    "name" : "RuleContext"
+  },
+  {
+    "id" : "ruleErrorType",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleErrorType",
+    "version" : "1.0.0",
+    "name" : "RuleErrorType"
+  },
+  {
+    "id" : "ruleLevel",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleLevel",
+    "version" : "1.0.0",
+    "name" : "RuleLevel"
+  },
+  {
+    "id" : "ruleSeverity",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleSeverity",
+    "version" : "1.0.0",
+    "name" : "RuleSeverity"
+  },
+  {
+    "id" : "ruleSubcategory",
+    "type" : "ValueSet",
+    "url" : "http://NCQA.org/fhir/example/ValueSet/ruleSubcategory",
+    "version" : "1.0.0",
+    "name" : "RuleSubcategory"
+  }
+]

@@ -1,0 +1,154 @@
+﻿DQR : Validation Results
+=========================================
+
+err = 12, warn = 86, info = 9
+IG Publisher Version: 1.4.3
+Generated Wed Sep 06 13:31:01 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://NCQA.org/fhir/example)
+ Build Errors : 0 / 22 / 0
+ /github/workspace/fsh-generated/resources/Binary-PractitionerDQRDefinition : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-action-type-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-category-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-context-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-error-type-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-level-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-relationship-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-severity-level-system : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-subcategory-system : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 9 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-DataQualityRuleDefinition : 9 / 12 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-actionType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleActionRelationship : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-ruleCategory : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleContext : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleErrorType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleLevel : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleSeverity : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-ruleSubcategory : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleActionRelationship.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleCategory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleErrorType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleSeverity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleSubcategory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleContext.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ruleLevel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/actionType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/action-type-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/category-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/context-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/error-type-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/level-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/relationship-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/severity-level-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/subcategory-system.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PractitionerDQRDefinition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-PractitionerDQRDefinition.json ==
+WARNING: Binary/PractitionerDQRDefinition: DataQualityRuleDefinition.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Binary/PractitionerDQRDefinition: DataQualityRuleDefinition.identifier[1].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/CodeSystem-action-type-system.json ==
+INFORMATION: CodeSystem/action-type-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/action-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/action-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/action-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-category-system.json ==
+INFORMATION: CodeSystem/category-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/category-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/category-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/category-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-context-system.json ==
+INFORMATION: CodeSystem/context-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/context-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/context-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/context-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-error-type-system.json ==
+INFORMATION: CodeSystem/error-type-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/error-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/error-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/error-type-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-level-system.json ==
+INFORMATION: CodeSystem/level-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-relationship-system.json ==
+INFORMATION: CodeSystem/relationship-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/relationship-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/relationship-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/relationship-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-severity-level-system.json ==
+INFORMATION: CodeSystem/severity-level-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/severity-level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/severity-level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/severity-level-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-subcategory-system.json ==
+WARNING: CodeSystem/subcategory-system: CodeSystem.title: value should not start or finish with whitespace 'CodeSystem: Subcategory '
+INFORMATION: CodeSystem/subcategory-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/subcategory-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/subcategory-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/subcategory-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://NCQA.org/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://NCQA.org/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://NCQA.org/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://NCQA.org/fhir/example
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[0].name: value should not start or finish with whitespace ' ValueSet: Rule Action Relationship'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[1].name: value should not start or finish with whitespace ' ValueSet: Rule Category'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[2].name: value should not start or finish with whitespace ' ValueSet: Rule context'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace ' ValueSet: Rule Error Type'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[4].name: value should not start or finish with whitespace ' ValueSet: Rule level'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[5].name: value should not start or finish with whitespace ' ValueSet: Rule Severity'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[6].name: value should not start or finish with whitespace ' ValueSet: Rule Subcategory'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[7].name: value should not start or finish with whitespace ' ValueSet: Rules Action Type'
+WARNING: ImplementationGuide/my-ig: ImplementationGuide.definition.resource[15].name: value should not start or finish with whitespace 'CodeSystem: Subcategory '
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://NCQA.org/fhir/example/ImplementationGuide/my-ig vs http://NCQA.org/fhir/example
+== fsh-generated/resources/StructureDefinition-DataQualityRuleDefinition.json ==
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot: Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[16].short: value should not start or finish with whitespace ' the category of the rule (conformance,completeness,plausibility )'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[17].short: value should not start or finish with whitespace ' the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[29].short: value should not start or finish with whitespace ' ( additional RatioRange or SampleData ) Threshold Criterion of rule'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[37].short: value should not start or finish with whitespace ' Severity Level'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[46].short: value should not start or finish with whitespace ' the action type'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[60].short: value should not start or finish with whitespace ' Severity Level'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[13].short: value should not start or finish with whitespace ' the category of the rule (conformance,completeness,plausibility )'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[14].short: value should not start or finish with whitespace ' the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[20].short: value should not start or finish with whitespace ' ( additional RatioRange or SampleData ) Threshold Criterion of rule'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[25].short: value should not start or finish with whitespace ' Severity Level'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[31].short: value should not start or finish with whitespace ' the action type'
+WARNING: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[39].short: value should not start or finish with whitespace ' Severity Level'
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Profile http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition is for type StructureDefinition[http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition|1.0.0], which is not a Resource (which is required because the DataQualityRuleDefinition.related element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Expression is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Expression|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.subject.fieldScope element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[20].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Quantity is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Quantity|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.logic.thresholdCriterion element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.differential.element[20].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Range is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Range|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.logic.thresholdCriterion element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[5].type[0].targetProfile[0]: Profile http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition is for type StructureDefinition[http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition|1.0.0], which is not a Resource (which is required because the DataQualityRuleDefinition.related element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[24].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Expression is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Expression|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.subject.fieldScope element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[29].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Quantity is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Quantity|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.logic.thresholdCriterion element has type Reference)
+ERROR: StructureDefinition/DataQualityRuleDefinition: StructureDefinition.snapshot.element[29].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/Range is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Range|4.0.1], which is not a Resource (which is required because the DataQualityRuleDefinition.logic.thresholdCriterion element has type Reference)
+== fsh-generated/resources/ValueSet-actionType.json ==
+WARNING: ValueSet/actionType: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rules Action Type'
+WARNING: ValueSet/actionType: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleActionRelationship.json ==
+WARNING: ValueSet/ruleActionRelationship: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule Action Relationship'
+INFORMATION: ValueSet/ruleActionRelationship: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
+WARNING: ValueSet/ruleActionRelationship: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleCategory.json ==
+WARNING: ValueSet/ruleCategory: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule Category'
+WARNING: ValueSet/ruleCategory: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleContext.json ==
+WARNING: ValueSet/ruleContext: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule context'
+WARNING: ValueSet/ruleContext: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleErrorType.json ==
+WARNING: ValueSet/ruleErrorType: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule Error Type'
+WARNING: ValueSet/ruleErrorType: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleLevel.json ==
+WARNING: ValueSet/ruleLevel: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule level'
+WARNING: ValueSet/ruleLevel: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleSeverity.json ==
+WARNING: ValueSet/ruleSeverity: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule Severity'
+WARNING: ValueSet/ruleSeverity: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ruleSubcategory.json ==
+WARNING: ValueSet/ruleSubcategory: ValueSet.title: value should not start or finish with whitespace ' ValueSet: Rule Subcategory'
+WARNING: ValueSet/ruleSubcategory: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

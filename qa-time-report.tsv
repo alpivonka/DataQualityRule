@@ -1,0 +1,20 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-my-ig.json	5376	-	0	0	0	0	0	0	6	564	0	0	0	0	0	0	0	0	0	0	127	149	0	0	0	4	0	1
+fsh-generated/resources/CodeSystem-context-system.json	415	11	0	0	0	0	0	0	0	16	0	0	1	0	0	0	0	0	0	0	8	2443	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ruleContext.json	510	9	0	0	0	0	0	0	0	167	0	0	0	0	0	0	0	2	0	0	7	7517	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ruleSubcategory.json	830	10	0	0	0	0	0	0	0	77	0	0	0	0	0	0	0	0	0	0	8	152	0	1	0	1	0	0
+fsh-generated/resources/ValueSet-ruleSeverity.json	648	10	0	0	0	0	0	0	0	64	0	0	0	0	0	0	0	0	0	0	9	101	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-subcategory-system.json	852	9	0	0	0	0	0	0	1	13	0	0	0	0	0	0	0	0	0	0	8	83	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-DataQualityRuleDefinition.json	17321	834	1	0	0	0	0	2125	0	2166	0	0	0	0	0	0	0	2	0	0	240	2847	0	0	0	30	0	1
+fsh-generated/resources/CodeSystem-relationship-system.json	954	10	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	9	62	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-severity-level-system.json	574	10	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	7	57	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ruleLevel.json	546	9	0	0	0	0	0	0	1	70	0	0	0	0	0	0	0	0	0	0	7	104	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ruleCategory.json	576	9	0	0	0	0	0	0	0	72	0	0	0	0	0	0	0	1	0	0	7	91	0	0	0	3	0	0
+fsh-generated/resources/CodeSystem-category-system.json	496	5	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	7	59	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-actionType.json	618	2	0	0	0	0	0	0	0	98	0	0	0	0	0	0	0	0	0	0	7	83	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ruleActionRelationship.json	1090	4	0	0	0	0	0	0	1	75	0	0	0	0	0	0	0	0	0	0	8	79	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-level-system.json	454	2	0	0	0	0	0	0	3	12	0	0	0	0	0	0	0	0	0	0	7	61	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-action-type-system.json	543	3	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	7	56	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-error-type-system.json	486	2	0	0	0	0	0	0	1	11	0	0	0	0	0	0	0	0	0	0	7	54	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ruleErrorType.json	573	3	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	0	0	0	7	77	0	0	0	1	0	0
+/fsh-generated/resources/Binary-PractitionerDQRDefinition.json	1720	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	9	0	0	0	0	0	0

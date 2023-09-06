@@ -1,0 +1,79 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "relationship-system",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://NCQA.org/fhir/example/CodeSystem/relationship-system",
+  "version" : "1.0.0",
+  "name" : "RelationshipSystem",
+  "title" : "CodeSystem: Relationship",
+  "status" : "active",
+  "date" : "2023-09-06T13:30:20+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "before",
+    "display" : "Before"
+  },
+  {
+    "code" : "before-start",
+    "display" : "Before Start"
+  },
+  {
+    "code" : "before-end",
+    "display" : "Before End"
+  },
+  {
+    "code" : "concurrent",
+    "display" : "Concurrent"
+  },
+  {
+    "code" : "concurrent-with-start",
+    "display" : "Concurrent With Start"
+  },
+  {
+    "code" : "concurrent-with-end",
+    "display" : "Concurrent With End"
+  },
+  {
+    "code" : "after",
+    "display" : "After"
+  },
+  {
+    "code" : "after-start",
+    "display" : "After Start"
+  },
+  {
+    "code" : "after-end",
+    "display" : "After End"
+  }]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "severity-level-system",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://NCQA.org/fhir/example/CodeSystem/severity-level-system",
+  "version" : "1.0.0",
+  "name" : "SeverityLevelSystem",
+  "title" : "CodeSystem: Severity Level",
+  "status" : "active",
+  "date" : "2023-09-06T13:30:20+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "1",
+    "display" : "1 - Low"
+  },
+  {
+    "code" : "2",
+    "display" : "2"
+  },
+  {
+    "code" : "3",
+    "display" : "3"
+  },
+  {
+    "code" : "4",
+    "display" : "4"
+  },
+  {
+    "code" : "5",
+    "display" : "5 - High"
+  }]
+}

@@ -1,0 +1,12 @@
+{
+  "url" : "http://NCQA.org/fhir/example",
+  "name" : "DQR",
+  "package-id" : "my-ig",
+  "ig-ver" : "1.0.0",
+  "date" : "Wed, 06 Sep, 2023 13:30:20 +0000",
+  "errs" : 12,
+  "warnings" : 86,
+  "hints" : 9,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)"
+}

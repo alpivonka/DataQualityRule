@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataQualityRuleDefinition"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition"/>
+  <version value="1.0.0"/>
+  <name value="DataQualityRule"/>
+  <title value="Resource: Data Quality Rule Definition"/>
+  <status value="active"/>
+  <date value="2023-09-06T13:30:20+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A rule ensuring data adherence to expected norms and standards."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="DataQualityRuleDefinition">
+      <path value="DataQualityRuleDefinition"/>
+      <short value="Resource: Data Quality Rule Definition"/>
+      <definition value="A rule ensuring data adherence to expected norms and standards."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="DataQualityRuleDefinition.identifier">
+      <path value="DataQualityRuleDefinition.identifier"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.identifier"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.description">
+      <path value="DataQualityRuleDefinition.description"/>
+      <short value="Description of Rule"/>
+      <definition value="Logical description of Rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.description"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.name">
+      <path value="DataQualityRuleDefinition.name"/>
+      <short value="Name of Rule"/>
+      <definition value="Name of Rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.name"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.period">
+      <path value="DataQualityRuleDefinition.period"/>
+      <short value="period of effectiveness of this rule"/>
+      <definition value="period of effectiveness of this rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.period"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Period"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.related">
+      <path value="DataQualityRuleDefinition.related"/>
+      <short value="Releated rules."/>
+      <definition value="Releated rules."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.related"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.lastUpdated">
+      <path value="DataQualityRuleDefinition.lastUpdated"/>
+      <short value="Last date the rule was updated."/>
+      <definition value="Last date the rule was updated."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.lastUpdated"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.version">
+      <path value="DataQualityRuleDefinition.version"/>
+      <short value="Version of this rule instance"/>
+      <definition value="Version of this rule instance"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.version"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.exception">
+      <path value="DataQualityRuleDefinition.exception"/>
+      <short value="Exceptions to this rule and the expression to be used."/>
+      <definition value="Exceptions to this rule and the expression to be used."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.exception"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.examples">
+      <path value="DataQualityRuleDefinition.examples"/>
+      <short value="example of rule"/>
+      <definition value="example of rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.examples"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration">
+      <path value="DataQualityRuleDefinition.configuration"/>
+      <short value="Configuration of the rule (Level, context, category, sub-category)"/>
+      <definition value="Configuration of the rule (Level, context, category, sub-category)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.configuration"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.id">
+      <path value="DataQualityRuleDefinition.configuration.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.extension">
+      <path value="DataQualityRuleDefinition.configuration.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.modifierExtension">
+      <path value="DataQualityRuleDefinition.configuration.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.level">
+      <path value="DataQualityRuleDefinition.configuration.level"/>
+      <short value="the rule defined level (concept/resource/field)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.configuration.level"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleLevel"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.context">
+      <path value="DataQualityRuleDefinition.configuration.context"/>
+      <short value="the context of the rule (verification or validation)"/>
+      <definition value="the context of the rule (verification or validation)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.configuration.context"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleContext"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.category">
+      <path value="DataQualityRuleDefinition.configuration.category"/>
+      <short value=" the category of the rule (conformance,completeness,plausibility )"/>
+      <definition value=" the category of the rule (conformance,completeness,plausibility )"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.configuration.category"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleCategory"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.subcategory">
+      <path value="DataQualityRuleDefinition.configuration.subcategory"/>
+      <short value=" the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)"/>
+      <definition value=" the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.configuration.subcategory"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSubcategory"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.subject">
+      <path value="DataQualityRuleDefinition.subject"/>
+      <short value="Subject (Resource/FHIRPath of attribute) of the rule"/>
+      <definition value="Subject (Resource/FHIRPath of attribute) of the rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.subject"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.id">
+      <path value="DataQualityRuleDefinition.subject.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.extension">
+      <path value="DataQualityRuleDefinition.subject.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.modifierExtension">
+      <path value="DataQualityRuleDefinition.subject.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.resourceStructureDefinitionURL">
+      <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionURL"/>
+      <short value="Referable resources this rule applies to."/>
+      <definition value="Referable resources this rule applies to."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionURL"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="url"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.resourceStructureDefinitionVersion">
+      <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionVersion"/>
+      <short value="Version of resource"/>
+      <definition value="Version of resource"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionVersion"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.fieldScope">
+      <path value="DataQualityRuleDefinition.subject.fieldScope"/>
+      <short value="FhirPath to Resource field."/>
+      <definition value="FhirPath to Resource field."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.subject.fieldScope"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.logic">
+      <path value="DataQualityRuleDefinition.logic"/>
+      <short value="Logic of the rule"/>
+      <definition value="Logic of the rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.logic"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.id">
+      <path value="DataQualityRuleDefinition.logic.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.extension">
+      <path value="DataQualityRuleDefinition.logic.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.modifierExtension">
+      <path value="DataQualityRuleDefinition.logic.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.thresholdCriterion">
+      <path value="DataQualityRuleDefinition.logic.thresholdCriterion"/>
+      <short value=" ( additional RatioRange or SampleData ) Threshold Criterion of rule"/>
+      <definition value=" ( additional RatioRange or SampleData ) Threshold Criterion of rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.logic.thresholdCriterion"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Quantity"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Range"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.expression">
+      <path value="DataQualityRuleDefinition.logic.expression"/>
+      <short value="the logic to be executed by this rule"/>
+      <definition value="the logic to be executed by this rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.logic.expression"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.response">
+      <path value="DataQualityRuleDefinition.response"/>
+      <short value="Reponse to the rule"/>
+      <definition value="Reponse to the rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.response"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.response.id">
+      <path value="DataQualityRuleDefinition.response.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.response.extension">
+      <path value="DataQualityRuleDefinition.response.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.response.modifierExtension">
+      <path value="DataQualityRuleDefinition.response.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.response.type">
+      <path value="DataQualityRuleDefinition.response.type"/>
+      <short value="Response Type for rule"/>
+      <definition value="Response Type for rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.response.type"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.response.message">
+      <path value="DataQualityRuleDefinition.response.message"/>
+      <short value="A Standard response message for the action"/>
+      <definition value="A Standard response message for the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.response.message"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.response.severity">
+      <path value="DataQualityRuleDefinition.response.severity"/>
+      <short value=" Severity Level"/>
+      <definition value=" Severity Level"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.response.severity"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action">
+      <path value="DataQualityRuleDefinition.action"/>
+      <short value="Actions taken based on potential rule outcome"/>
+      <definition value="Actions taken based on potential rule outcome"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.action.id">
+      <path value="DataQualityRuleDefinition.action.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.extension">
+      <path value="DataQualityRuleDefinition.action.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.modifierExtension">
+      <path value="DataQualityRuleDefinition.action.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.linkedId">
+      <path value="DataQualityRuleDefinition.action.linkedId"/>
+      <short value="Id of the action"/>
+      <definition value="Id of the action"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.linkedId"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.prefix">
+      <path value="DataQualityRuleDefinition.action.prefix"/>
+      <short value="Prefix of the action"/>
+      <definition value="Prefix of the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.prefix"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.title">
+      <path value="DataQualityRuleDefinition.action.title"/>
+      <short value="Title of the action"/>
+      <definition value="Title of the action"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.title"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.description">
+      <path value="DataQualityRuleDefinition.action.description"/>
+      <short value="description of the action"/>
+      <definition value="description of the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.description"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.type">
+      <path value="DataQualityRuleDefinition.action.type"/>
+      <short value=" the action type"/>
+      <definition value=" the action type"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/actionType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.expression">
+      <path value="DataQualityRuleDefinition.action.expression"/>
+      <short value="Expression to be executed for this action"/>
+      <definition value="Expression to be executed for this action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.expression"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related">
+      <path value="DataQualityRuleDefinition.action.related"/>
+      <short value="Related Actions"/>
+      <definition value="Related Actions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.related"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.id">
+      <path value="DataQualityRuleDefinition.action.related.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.extension">
+      <path value="DataQualityRuleDefinition.action.related.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.modifierExtension">
+      <path value="DataQualityRuleDefinition.action.related.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.targetId">
+      <path value="DataQualityRuleDefinition.action.related.targetId"/>
+      <short value="related action id"/>
+      <definition value="related action id"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.related.targetId"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="id"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.relationship">
+      <path value="DataQualityRuleDefinition.action.related.relationship"/>
+      <short value="Actoin Relationship"/>
+      <definition value="Actoin Relationship"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.related.relationship"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response">
+      <path value="DataQualityRuleDefinition.action.response"/>
+      <short value="Reponse to the action"/>
+      <definition value="Reponse to the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.response"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.id">
+      <path value="DataQualityRuleDefinition.action.response.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="string"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.extension">
+      <path value="DataQualityRuleDefinition.action.response.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.modifierExtension">
+      <path value="DataQualityRuleDefinition.action.response.modifierExtension"/>
+      <short value="Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <alias value="modifiers"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BackboneElement.modifierExtension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="true"/>
+      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.type">
+      <path value="DataQualityRuleDefinition.action.response.type"/>
+      <short value="response Type for rule"/>
+      <definition value="response Type for rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.response.type"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.message">
+      <path value="DataQualityRuleDefinition.action.response.message"/>
+      <short value="A Standard response message for this rule"/>
+      <definition value="A Standard response message for this rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.response.message"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.severity">
+      <path value="DataQualityRuleDefinition.action.response.severity"/>
+      <short value=" Severity Level"/>
+      <definition value=" Severity Level"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="DataQualityRuleDefinition.action.response.severity"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+      </binding>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="DataQualityRuleDefinition">
+      <path value="DataQualityRuleDefinition"/>
+      <short value="Resource: Data Quality Rule Definition"/>
+      <definition value="A rule ensuring data adherence to expected norms and standards."/>
+    </element>
+    <element id="DataQualityRuleDefinition.identifier">
+      <path value="DataQualityRuleDefinition.identifier"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.description">
+      <path value="DataQualityRuleDefinition.description"/>
+      <short value="Description of Rule"/>
+      <definition value="Logical description of Rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.name">
+      <path value="DataQualityRuleDefinition.name"/>
+      <short value="Name of Rule"/>
+      <definition value="Name of Rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.period">
+      <path value="DataQualityRuleDefinition.period"/>
+      <short value="period of effectiveness of this rule"/>
+      <definition value="period of effectiveness of this rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Period"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.related">
+      <path value="DataQualityRuleDefinition.related"/>
+      <short value="Releated rules."/>
+      <definition value="Releated rules."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://NCQA.org/fhir/example/StructureDefinition/DataQualityRuleDefinition"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.lastUpdated">
+      <path value="DataQualityRuleDefinition.lastUpdated"/>
+      <short value="Last date the rule was updated."/>
+      <definition value="Last date the rule was updated."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.version">
+      <path value="DataQualityRuleDefinition.version"/>
+      <short value="Version of this rule instance"/>
+      <definition value="Version of this rule instance"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.exception">
+      <path value="DataQualityRuleDefinition.exception"/>
+      <short value="Exceptions to this rule and the expression to be used."/>
+      <definition value="Exceptions to this rule and the expression to be used."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.examples">
+      <path value="DataQualityRuleDefinition.examples"/>
+      <short value="example of rule"/>
+      <definition value="example of rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration">
+      <path value="DataQualityRuleDefinition.configuration"/>
+      <short value="Configuration of the rule (Level, context, category, sub-category)"/>
+      <definition value="Configuration of the rule (Level, context, category, sub-category)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.level">
+      <path value="DataQualityRuleDefinition.configuration.level"/>
+      <short value="the rule defined level (concept/resource/field)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleLevel"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.context">
+      <path value="DataQualityRuleDefinition.configuration.context"/>
+      <short value="the context of the rule (verification or validation)"/>
+      <definition value="the context of the rule (verification or validation)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleContext"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.category">
+      <path value="DataQualityRuleDefinition.configuration.category"/>
+      <short value=" the category of the rule (conformance,completeness,plausibility )"/>
+      <definition value=" the category of the rule (conformance,completeness,plausibility )"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleCategory"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.configuration.subcategory">
+      <path value="DataQualityRuleDefinition.configuration.subcategory"/>
+      <short value=" the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)"/>
+      <definition value=" the subcategory of the rule (value-conformance,relational-conformance,computational-conformance,uniqueness-plausibility,atemporal-plausibility,temporal-plausibility)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSubcategory"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.subject">
+      <path value="DataQualityRuleDefinition.subject"/>
+      <short value="Subject (Resource/FHIRPath of attribute) of the rule"/>
+      <definition value="Subject (Resource/FHIRPath of attribute) of the rule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.resourceStructureDefinitionURL">
+      <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionURL"/>
+      <short value="Referable resources this rule applies to."/>
+      <definition value="Referable resources this rule applies to."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="url"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.resourceStructureDefinitionVersion">
+      <path value="DataQualityRuleDefinition.subject.resourceStructureDefinitionVersion"/>
+      <short value="Version of resource"/>
+      <definition value="Version of resource"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.subject.fieldScope">
+      <path value="DataQualityRuleDefinition.subject.fieldScope"/>
+      <short value="FhirPath to Resource field."/>
+      <definition value="FhirPath to Resource field."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.logic">
+      <path value="DataQualityRuleDefinition.logic"/>
+      <short value="Logic of the rule"/>
+      <definition value="Logic of the rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.thresholdCriterion">
+      <path value="DataQualityRuleDefinition.logic.thresholdCriterion"/>
+      <short value=" ( additional RatioRange or SampleData ) Threshold Criterion of rule"/>
+      <definition value=" ( additional RatioRange or SampleData ) Threshold Criterion of rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Quantity"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Range"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.logic.expression">
+      <path value="DataQualityRuleDefinition.logic.expression"/>
+      <short value="the logic to be executed by this rule"/>
+      <definition value="the logic to be executed by this rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.response">
+      <path value="DataQualityRuleDefinition.response"/>
+      <short value="Reponse to the rule"/>
+      <definition value="Reponse to the rule"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.response.type">
+      <path value="DataQualityRuleDefinition.response.type"/>
+      <short value="Response Type for rule"/>
+      <definition value="Response Type for rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.response.message">
+      <path value="DataQualityRuleDefinition.response.message"/>
+      <short value="A Standard response message for the action"/>
+      <definition value="A Standard response message for the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.response.severity">
+      <path value="DataQualityRuleDefinition.response.severity"/>
+      <short value=" Severity Level"/>
+      <definition value=" Severity Level"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action">
+      <path value="DataQualityRuleDefinition.action"/>
+      <short value="Actions taken based on potential rule outcome"/>
+      <definition value="Actions taken based on potential rule outcome"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.linkedId">
+      <path value="DataQualityRuleDefinition.action.linkedId"/>
+      <short value="Id of the action"/>
+      <definition value="Id of the action"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.prefix">
+      <path value="DataQualityRuleDefinition.action.prefix"/>
+      <short value="Prefix of the action"/>
+      <definition value="Prefix of the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.title">
+      <path value="DataQualityRuleDefinition.action.title"/>
+      <short value="Title of the action"/>
+      <definition value="Title of the action"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.description">
+      <path value="DataQualityRuleDefinition.action.description"/>
+      <short value="description of the action"/>
+      <definition value="description of the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.type">
+      <path value="DataQualityRuleDefinition.action.type"/>
+      <short value=" the action type"/>
+      <definition value=" the action type"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/actionType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.expression">
+      <path value="DataQualityRuleDefinition.action.expression"/>
+      <short value="Expression to be executed for this action"/>
+      <definition value="Expression to be executed for this action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Expression"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related">
+      <path value="DataQualityRuleDefinition.action.related"/>
+      <short value="Related Actions"/>
+      <definition value="Related Actions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.targetId">
+      <path value="DataQualityRuleDefinition.action.related.targetId"/>
+      <short value="related action id"/>
+      <definition value="related action id"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="id"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.related.relationship">
+      <path value="DataQualityRuleDefinition.action.related.relationship"/>
+      <short value="Actoin Relationship"/>
+      <definition value="Actoin Relationship"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleActionRelationship"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response">
+      <path value="DataQualityRuleDefinition.action.response"/>
+      <short value="Reponse to the action"/>
+      <definition value="Reponse to the action"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.type">
+      <path value="DataQualityRuleDefinition.action.response.type"/>
+      <short value="response Type for rule"/>
+      <definition value="response Type for rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleErrorType"/>
+      </binding>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.message">
+      <path value="DataQualityRuleDefinition.action.response.message"/>
+      <short value="A Standard response message for this rule"/>
+      <definition value="A Standard response message for this rule"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="DataQualityRuleDefinition.action.response.severity">
+      <path value="DataQualityRuleDefinition.action.response.severity"/>
+      <short value=" Severity Level"/>
+      <definition value=" Severity Level"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://NCQA.org/fhir/example/ValueSet/ruleSeverity"/>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

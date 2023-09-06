@@ -1,0 +1,62 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ruleSeverity",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "http://NCQA.org/fhir/example/ValueSet/ruleSeverity",
+  "version" : "1.0.0",
+  "name" : "RuleSeverity",
+  "title" : " ValueSet: Rule Severity",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-09-06T13:30:20+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://NCQA.org/fhir/example/CodeSystem/severity-level-system",
+      "concept" : [{
+        "code" : "1"
+      },
+      {
+        "code" : "2"
+      },
+      {
+        "code" : "3"
+      },
+      {
+        "code" : "4"
+      },
+      {
+        "code" : "5"
+      }]
+    }]
+  }
+}

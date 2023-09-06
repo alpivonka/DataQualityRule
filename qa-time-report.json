@@ -1,0 +1,810 @@
+{
+  "date" : "Wed, 06 Sep, 2023 13:30:20 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-my-ig.json",
+      "size" : 5376,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 56,
+          "length" : 522
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 564
+        },
+        {
+          "activity" : "validate",
+          "start" : 64,
+          "length" : 1124
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 127
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 149
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 95,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-context-system.json",
+      "size" : 415,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 62,
+          "length" : 642
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 65,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 69,
+          "length" : 2443
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleContext.json",
+      "size" : 510,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 167
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 34
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 65,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 7517
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleSubcategory.json",
+      "size" : 830,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 77
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 42
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 152
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 83,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleSeverity.json",
+      "size" : 648,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 64
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 53
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 101
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-subcategory-system.json",
+      "size" : 852,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 83
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-DataQualityRuleDefinition.json",
+      "size" : 17321,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 54,
+          "length" : 834
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 838
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 57,
+          "length" : 2125
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 2166
+        },
+        {
+          "activity" : "validate",
+          "start" : 64,
+          "length" : 786
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 65,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 240
+        },
+        {
+          "activity" : "generate2",
+          "start" : 79,
+          "length" : 2847
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 30
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 95,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-relationship-system.json",
+      "size" : 954,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 66,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 62
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-severity-level-system.json",
+      "size" : 574,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 57
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleLevel.json",
+      "size" : 546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 35
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 104
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleCategory.json",
+      "size" : 576,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 72
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 26
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 65,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 91
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-category-system.json",
+      "size" : 496,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 59
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-actionType.json",
+      "size" : 618,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 98
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 33
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 83
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleActionRelationship.json",
+      "size" : 1090,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 75
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 79
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-level-system.json",
+      "size" : 454,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 32
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 61
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-action-type-system.json",
+      "size" : 543,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 38
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 56
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-error-type-system.json",
+      "size" : 486,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 36
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ruleErrorType.json",
+      "size" : 573,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 55,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 55,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 64,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 82,
+          "length" : 77
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 89,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-PractitionerDQRDefinition.json",
+      "size" : 1720,
+      "processes" : [
+        {
+          "activity" : "scan",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 106
+        },
+        {
+          "activity" : "generate1",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 83,
+          "length" : 9
+        }
+      ]
+    }
+  ]
+}
