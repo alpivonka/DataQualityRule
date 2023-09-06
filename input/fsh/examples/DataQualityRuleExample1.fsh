@@ -1,6 +1,10 @@
 //Example Instance of DQR
+
+
 Instance: PractitionerDQRDefinition
 InstanceOf: DataQualityRuleDefinition
+Usage: #example
+Title: "InstanceOf: DataQualityRuleDefinition - PractitionerDQRDefinition"
 * identifier[+].use =  IdentifierUse#official
 * identifier[=].type = #DQR-version
 * identifier[=].value = "0.0.1"
